@@ -1,0 +1,18 @@
+
+
+body {
+    font-family: arial;
+    background-color: rgb(185,179,175);
+    padding: 30px; 
+    opacity: 0.9;
+}
+
+h1{
+    background-color: honeydew;
+}
+
+h2 {
+    color: rgb(255,255,255);
+    background-color: sandybrown;
+    opacity: 0.8;
+}
