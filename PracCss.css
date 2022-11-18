@@ -34,6 +34,12 @@ p {
 img {
     width: 500px;
     height: 300px;
+    display: inline;
+}
+.descrip{
+    display: inline;
+    align-items: right;
+    position: relative;
 }
 
 header{
@@ -100,3 +106,10 @@ main{
     height: 1200px;
 }
 /* ---------------------- */
+#sitemap a{
+    margin: 10px;
+    padding: 10px;
+}
+#sitemap a:hover{
+    background-color: sandybrown;
+}
