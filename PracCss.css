@@ -3,13 +3,12 @@
 body {
     font-family: arial;
     background-color: rgb(185,179,175);
-    padding: 30px; 
     opacity: 0.9;
 }
 
 h1{
-    background-color: honeydew;
     padding: 10px;
+    display: inline-block;
 }
 
 h2 {
@@ -21,9 +20,10 @@ h2 {
 
 a{
     margin: 10px;
+    text-decoration: none;
 }
 a:hover{
-    text-decoration: wavy;
+    text-decoration: underline;
 }
 
 p {
@@ -36,8 +36,67 @@ img {
     height: 300px;
 }
 
+header{
+    border: solid orange;
+    background-color: orange;
+    width: 100%;
+    font-size: 30px;
+}
 footer {
     padding: 10px;
     text-align: center;
     margin: 50px;
 }
+
+.container{
+    border: solid blue;
+    margin: 10px;
+}
+/* navbar */
+#navbar{
+    float: right;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+    position: relative;
+    top:50px;
+}
+#navbar ul {
+    list-style-type: none;
+    float: right;
+}
+#navbar li{
+    display: inline;
+    padding: 10px;;
+    
+}
+#navbar li:hover{
+    background-color: salmon;
+}
+/* ---------------------- */
+
+/* orienting the main section and the side section */
+aside{
+    float: right;
+    display: inline-block;
+    width: 35%;
+    background-color: blue;
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 1150px;
+}
+.smallc{
+    border: solid white;
+    padding: 15px;
+    margin: 10px;
+}
+
+main{
+    width: 55%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 1200px;
+}
+/* ---------------------- */
