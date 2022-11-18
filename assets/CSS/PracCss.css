@@ -1,14 +1,15 @@
 
 
-body {
+body, html {
     font-family: arial;
     background-color: rgb(185,179,175);
     opacity: 0.9;
+    height: 100%;
 }
 
 h1{
     padding: 10px;
-    display: inline-block;
+    display: flex;
 }
 
 h2 {
@@ -47,6 +48,8 @@ header{
     background-color: orange;
     width: 100%;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 footer {
     padding: 10px;
@@ -54,26 +57,28 @@ footer {
     margin: 50px;
 }
 
-.container{
+.mcontainer{
     border: solid blue;
     margin: 10px;
 }
 /* navbar */
 #navbar{
-    float: right;
-    display: inline-block;
     margin-right: 25px;
     font-size: 20px;
-    position: relative;
-    top:50px;
+    align-self: center;
+    height: 100%;
 }
 #navbar ul {
     list-style-type: none;
-    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
 #navbar li{
-    display: inline;
-    padding: 10px;;
+    display: flex;
+    padding: 10px;
+    align-items: stretch;
+    height: max-content;
     
 }
 #navbar li:hover{
@@ -82,28 +87,32 @@ footer {
 /* ---------------------- */
 
 /* orienting the main section and the side section */
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
 aside{
-    float: right;
-    display: inline-block;
+    display: flex;
+    flex-flow: column wrap;
     width: 35%;
     background-color: blue;
     color: white;
     margin-right: 50px;
     margin-top: 20px;
-    height: 1150px;
 }
 .smallc{
     border: solid white;
     padding: 15px;
     margin: 10px;
 }
-
-main{
+.mainc{
     width: 55%;
-    display: inline-block;
+    display: flex;
     margin-top: 10px;
     margin-left: 20px;
     height: 1200px;
+    flex-flow: column wrap;
 }
 /* ---------------------- */
 #sitemap a{
