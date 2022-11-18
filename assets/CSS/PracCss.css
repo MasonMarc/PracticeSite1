@@ -67,21 +67,16 @@ footer {
     font-size: 20px;
     align-self: center;
     height: 100%;
-}
-#navbar ul {
-    list-style-type: none;
     display: flex;
     flex-flow: row wrap;
-    align-items: stretch;
 }
-#navbar li{
+#navbar a{
     display: flex;
     padding: 10px;
-    align-items: stretch;
-    height: max-content;
+    height: 100%;
     
 }
-#navbar li:hover{
+#navbar a:hover{
     background-color: salmon;
 }
 /* ---------------------- */
