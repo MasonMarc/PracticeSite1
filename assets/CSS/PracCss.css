@@ -1,6 +1,6 @@
 
 
-body, html {
+body{
     font-family: arial;
     background-color: rgb(185,179,175);
     opacity: 0.9;
@@ -46,10 +46,11 @@ img {
 header{
     border: solid orange;
     background-color: orange;
-    width: 100%;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
+    height: 6em;
+    align-items: center;
 }
 footer {
     padding: 10px;
@@ -65,8 +66,7 @@ footer {
 #navbar{
     margin-right: 25px;
     font-size: 20px;
-    align-self: center;
-    height: 100%;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
 }
